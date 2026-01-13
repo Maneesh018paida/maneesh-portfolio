@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maneesh Paida — Portfolio</title>
+  <meta name="description" content="Data Analytics • Business Intelligence • Data Engineering — Portfolio of Maneesh Paida" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#home">M</a>
+      <div class="navlinks">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="home" class="hero-section">
+    <div class="social-links-left">
+      <a href="https://www.linkedin.com/in/maneesh-paida" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:paida.maneesh018@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <div class="container hero">
+      <div class="hero-left">
+        <h1 class="h1">Hi, I'm <span class="highlight">Maneesh Paida</span>.</h1>
+        <div class="typing-text-container">
+          <span class="typing-text" id="typing-text"></span>
+        </div>
+        <div class="scroll-down">
+          <span>Scroll down</span>
+          <i class="fa-solid fa-arrow-down"></i>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="profile-image-wrapper">
+          <div class="decorative-shape"></div>
+          <img src="profile.jpg" alt="Maneesh Paida - Senior Data Analyst" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="container">
+    <h2 class="stitle">About Me</h2>
+    <div class="about-content">
+      <p class="sdesc">
+        I'm a Senior Data Analyst with 3+ years of experience delivering scalable, well governed analytics solutions. 
+        My expertise spans SQL, Python, Snowflake, Databricks, and AWS, with a proven track record in building 
+        self-service dashboards, high-quality data pipelines, and actionable insights.
+      </p>
+      <p class="sdesc">
+        Throughout my career, I've specialized in transforming complex datasets into clear, actionable business intelligence. 
+        At Conprobit Consulting, I design and deliver scalable analytics solutions across financial and operational domains, 
+        while at Invesco, I analyzed large operational datasets to improve data quality and enable trusted enterprise reporting.
+      </p>
+      <p class="sdesc">
+        I'm passionate about leveraging data to drive strategic decision-making and enjoy collaborating with 
+        cross-functional teams to translate business needs into measurable outcomes. My approach combines technical 
+        excellence with strong business acumen to deliver solutions that create real impact.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="container">
+    <h2 class="stitle">My Skills</h2>
+    <p class="section-subtitle">Technical Expertise</p>
+    <div class="skills-divider"></div>
+    
+    <div class="skills-tabs">
+      <button class="tab-btn active" data-tab="programming">Programming</button>
+      <button class="tab-btn" data-tab="visualization">BI & Visualization</button>
+      <button class="tab-btn" data-tab="cloud">Cloud & Big Data</button>
+      <button class="tab-btn" data-tab="other">ETL & Analysis</button>
+    </div>
+
+    <div class="skills-content">
+      <!-- Programming Skills -->
+      <div class="skills-grid active" id="programming">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-brands fa-python"></i>
+          </div>
+          <h3>Python</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <h3>R</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <h3>SQL</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <h3>T-SQL</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <h3>Oracle</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <h3>MySQL</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-fire"></i>
+          </div>
+          <h3>Spark</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-file-code"></i>
+          </div>
+          <h3>Databricks</h3>
+        </div>
+      </div>
+
+      <!-- BI & Visualization Skills -->
+      <div class="skills-grid" id="visualization">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-chart-pie"></i>
+          </div>
+          <h3>Power BI</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-chart-bar"></i>
+          </div>
+          <h3>Tableau</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-table"></i>
+          </div>
+          <h3>Excel</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+          <h3>Excel Dashboards</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-chart-area"></i>
+          </div>
+          <h3>Power Query</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-file-excel"></i>
+          </div>
+          <h3>VBA</h3>
+        </div>
+      </div>
+
+      <!-- Cloud & Big Data Skills -->
+      <div class="skills-grid" id="cloud">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-brands fa-aws"></i>
+          </div>
+          <h3>AWS</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-brands fa-microsoft"></i>
+          </div>
+          <h3>Azure</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-snowflake"></i>
+          </div>
+          <h3>Snowflake</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-fire"></i>
+          </div>
+          <h3>Databricks</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <h3>Data Modeling</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-file-csv"></i>
+          </div>
+          <h3>Flat Files</h3>
+        </div>
+      </div>
+
+      <!-- ETL & Analysis Skills -->
+      <div class="skills-grid" id="other">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-gears"></i>
+          </div>
+          <h3>ETL Pipelines</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-exchange-alt"></i>
+          </div>
+          <h3>Data Integration</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-check-circle"></i>
+          </div>
+          <h3>Data Quality</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+          <h3>Data Analysis</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-chart-area"></i>
+          </div>
+          <h3>Statistical Analysis</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-search"></i>
+          </div>
+          <h3>Root Cause Analysis</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-flask"></i>
+          </div>
+          <h3>A/B Testing</h3>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-forecast"></i>
+          </div>
+          <h3>Forecasting</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="container">
+    <h2 class="stitle">Experience</h2>
+    <p class="section-subtitle">My Professional Journey</p>
+    <div class="timeline-container">
+      <div class="timeline-grid">
+        <div class="timeline-card">
+          <h3>Senior Data Analyst</h3>
+          <div class="meta">Conprobit Consulting — Utah, USA • Jan 2025 – Current</div>
+          <ul class="experience-list">
+            <li><i class="fa-solid fa-check"></i> Designed and delivered scalable analytics and data solutions across financial and operational domains, applying advanced analytical and technical skills to support enterprise data driven decision making.</li>
+            <li><i class="fa-solid fa-check"></i> Developed and maintained interactive business intelligence dashboards and reports using Power BI and Tableau, providing real time visibility into key performance indicators and trends for senior business stakeholders.</li>
+            <li class="more-content"><i class="fa-solid fa-check"></i> Built, optimized, and supported data pipelines using SQL and Databricks, transforming large volumes of raw data into reliable analysis ready datasets and automating recurring workflows to reduce manual effort and improve reporting turnaround by 40 percent.</li>
+            <li class="more-content"><i class="fa-solid fa-check"></i> Partnered with business and cross functional teams to gather and document data requirements, develop business requirements documents and functional specifications, review data models, and translate business needs into governed technical solutions.</li>
+            <li class="more-content"><i class="fa-solid fa-check"></i> Implemented data quality, governance, and monitoring practices, including validation, reconciliation, data tracing, and production support, while collaborating with technology and governance teams to ensure secure, transparent, and trusted reporting across Snowflake, Databricks, Azure, and BI platforms.</li>
+          </ul>
+          <button class="read-more-btn" onclick="toggleReadMore(this)">View More</button>
+        </div>
+
+        <div class="timeline-card">
+          <h3>Infra Stability Engineer - Data Analyst</h3>
+          <div class="meta">Invesco — Hyderabad, India • Jul 2021 – Jan 2023</div>
+          <ul class="experience-list">
+            <li><i class="fa-solid fa-check"></i> Analyzed large and complex operational and analytical datasets to identify data quality gaps, improve completeness and accuracy, and enable trusted enterprise reporting through consistent validation and governance practices.</li>
+            <li><i class="fa-solid fa-check"></i> Designed, developed, and maintained interactive dashboards and visualizations using Power BI and Tableau, delivering actionable insights into performance, key metrics, trends, and variances for business stakeholders.</li>
+            <li class="more-content"><i class="fa-solid fa-check"></i> Built and maintained scalable data pipelines to extract, transform, and integrate data from multiple source systems, ensuring reusable, well governed, and self service analytics solutions.</li>
+            <li class="more-content"><i class="fa-solid fa-check"></i> Developed advanced SQL and Python solutions to analyze structured and semi structured data, automate recurring reporting workflows, and support ad hoc analysis and root cause investigations, improving turnaround time by 30 percent.</li>
+            <li class="more-content"><i class="fa-solid fa-check"></i> Partnered closely with business, technology, and data engineering teams to translate analytical requirements into metrics, dashboards, and data models while ensuring secure access and governance compliance.</li>
+            <li class="more-content"><i class="fa-solid fa-check"></i> Supported data lineage, metadata documentation, and executive reporting by presenting insights through clear data storytelling and leveraging cloud data platforms, including Snowflake to deliver high performance and scalable analytics solutions.</li>
+          </ul>
+          <button class="read-more-btn" onclick="toggleReadMore(this)">View More</button>
+        </div>
+
+        <div class="timeline-card">
+          <h3>Data Analyst Intern</h3>
+          <div class="meta">Shortcode Technologies — Hyderabad, India • Aug 2020 – Jun 2021</div>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Extracted, cleaned, and transformed datasets using SQL and Excel, improving data accuracy, accessibility, and supporting data driven analysis for business and academic stakeholders.</li>
+            <li><i class="fa-solid fa-check"></i> Automated routine data processing and reporting workflows using Python and advanced Excel formulas, reducing manual effort and improving reporting efficiency by 30 percent.</li>
+            <li><i class="fa-solid fa-check"></i> Developed interactive dashboards and visualizations in Power BI to track key metrics such as cohort performance, placement conversion rates, and program return on investment.</li>
+            <li><i class="fa-solid fa-check"></i> Collaborated with stakeholders to translate requirements into insights, supporting analytics initiatives through KPI standardization, documentation, and consistent reporting across teams.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="container">
+    <h2 class="stitle">Projects</h2>
+    <div class="projects">
+      <!-- VCE Discussion Board -->
+      <article class="proj card">
+        <div class="thumb">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1600&auto=format&fit=crop" alt="VCE Discussion Board"/>
+          <div class="tagbar">
+            <span class="pill">MongoDB</span><span class="pill">Express</span><span class="pill">React</span><span class="pill">Node.js</span>
+          </div>
+        </div>
+        <div class="proj-body">
+          <h3>VCE Discussion Board</h3>
+          <p>Built a student discussion platform for scholarships, placements, exams, campus activities, and club activities, improving access to timely academic and career updates. Enabled structured digital engagement through discussion threads and topic categorization, driving over 1,000+ posts within 3 months and improving engagement. Re-engineered the platform using the MERN stack (MongoDB, Express, React, Node.js) to enhance performance, scalability, and maintainability of the application.</p>
+          <div class="projb">
+            <a class="btn" target="_blank" href="#"><i class="fa-brands fa-github"></i> Code</a>
+            <a class="btn outline" target="_blank" href="#"><i class="fa-solid fa-up-right-from-square"></i> Live</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Movie App -->
+      <article class="proj card">
+        <div class="thumb">
+          <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop" alt="Movie App"/>
+          <div class="tagbar">
+            <span class="pill">Django</span><span class="pill">Python</span><span class="pill">MS SQL Server</span><span class="pill">Pandas</span>
+          </div>
+        </div>
+        <div class="proj-body">
+          <h3>Movie App</h3>
+          <p>Developed a data driven web application using Django and MS SQL Server to enable dynamic exploration of movie metadata through search, filtering, and analysis features. Implemented efficient data processing and retrieval using Python libraries such as pandas and pyodbc, along with optimized SQL Server stored procedures to improve query performance and reduce latency. Designed a scalable and user friendly application architecture, ensuring reliable data access, responsive interactions, and maintainable backend integration.</p>
+          <div class="projb">
+            <a class="btn" target="_blank" href="#"><i class="fa-brands fa-github"></i> Code</a>
+            <a class="btn outline" target="_blank" href="#"><i class="fa-solid fa-up-right-from-square"></i> Live</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="container">
+    <h2 class="stitle">Education</h2>
+    <div class="edu-list">
+      <div class="edu card">
+        <h3>A Master's graduate in Information Systems</h3>
+        <div class="meta">Cleveland State University — Dec 2024</div>
+        <div class="cgpa">CGPA: 3.7/4.0</div>
+      </div>
+      <div class="edu card">
+        <h3>Bachelor's in Information Technology</h3>
+        <div class="meta">Vasavi College of Engineering — Jun 2021</div>
+        <div class="cgpa">CGPA: 8.00/10.00</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="container">
+    <h2 class="stitle">Contact</h2>
+    <div class="grid2">
+      <div class="card contact-card">
+        <p class="sdesc">Open to full-time roles in Data Analytics / Business Intelligence / Data Engineering. Let's connect!</p>
+        <ul class="contact-list">
+          <li><i class="fa-solid fa-phone"></i> +1 (216) 474-3099</li>
+          <li><i class="fa-solid fa-envelope"></i> <a href="mailto:paida.maneesh018@gmail.com">paida.maneesh018@gmail.com</a></li>
+          <li><i class="fa-brands fa-linkedin"></i> <a target="_blank" href="https://www.linkedin.com/in/maneesh-paida">LinkedIn</a></li>
+          <li><i class="fa-brands fa-github"></i> <a target="_blank" href="https://github.com/">GitHub</a></li>
+        </ul>
+      </div>
+      <form class="card contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+        <input name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+        <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+        <button class="cta" type="submit">Send Message</button>
+        <p class="tiny">Create a form at Formspree and replace <code>your-form-id</code>.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container foot">
+      <p>© <span id="year"></span> Maneesh Paida • Built with ♥</p>
+      <div class="socials">
+        <a target="_blank" href="https://github.com/" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/maneesh-paida" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#home" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

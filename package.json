@@ -1,0 +1,19 @@
+{
+  "name": "maneesh-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Maneesh Paida",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8000 -o",
+    "dev": "npx http-server . -p 8000 -o",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "portfolio",
+    "website"
+  ],
+  "author": "Maneesh Paida",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
