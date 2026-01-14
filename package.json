@@ -2,11 +2,13 @@
   "name": "maneesh-portfolio",
   "version": "1.0.0",
   "description": "Portfolio website for Maneesh Paida",
+  "homepage": "https://Maneesh018paida.github.io/maneesh-portfolio",
   "main": "index.html",
   "scripts": {
     "start": "npx http-server . -p 8000 -o",
     "dev": "npx http-server . -p 8000 -o",
-    "serve": "python3 -m http.server 8000"
+    "serve": "python3 -m http.server 8000",
+    "deploy": "gh-pages -d ."
   },
   "keywords": [
     "portfolio",
@@ -14,6 +16,7 @@
   ],
   "author": "Maneesh Paida",
   "license": "MIT",
-  "devDependencies": {},
-  "dependencies": {}
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
